@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+	<link rel="stylesheet" href="../static/index.css">
+</head>
+<body class="ps-4 pe-4">
+	<form action="{{ url_for('result') }}" method="POST">
+		<div class="input-group input-group-lg mt-4">
+			<span class="input-group-text" id="inputGroup-sizing-lg">WALLET</span>
+			<input id="wallet" name="wallet" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+		</div>
+		<button type="submit" class="mt-2 float-end btn btn-warning btn-lg">SUBMIT</button>
+	</form>
+	<div class="text-white mt-4">
+		<h5>Enter here your wallet address to get started</h5>
+		<h5>As a result you will get recomendation system</h5>
+		<h5>This visualisation can help users with their decision on buying NFT collections</h5>
+	</div>
+</body>
+</html>
